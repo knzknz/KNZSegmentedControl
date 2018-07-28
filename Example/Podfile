@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KNZSegmentedControl_Example' do
+  pod 'KNZSegmentedControl', :path => '../'
+
+  target 'KNZSegmentedControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
