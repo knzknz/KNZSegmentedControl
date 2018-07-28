@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KNZSegmentedControl'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KNZSegmentedControl.'
+  s.summary          = ' A simple segmented control thats a step above the generic.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Boilerplate code to create a custom segmented control for your iOS app. Install this library to skip the generic code and fast forward your productivity!
                        DESC
 
   s.homepage         = 'https://github.com/knzknz/KNZSegmentedControl'
@@ -26,9 +26,10 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'knzknz' => 'knzali3@gmail.com' }
   s.source           = { :git => 'https://github.com/knzknz/KNZSegmentedControl.git', :tag => s.version.to_s }
+  s.swift_version = '4.1'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'KNZSegmentedControl/Classes/**/*'
   
@@ -37,6 +38,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

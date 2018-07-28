@@ -1,0 +1,16 @@
+PODS:
+  - KNZSegmentedControl (0.1.0)
+
+DEPENDENCIES:
+  - KNZSegmentedControl (from `../`)
+
+EXTERNAL SOURCES:
+  KNZSegmentedControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KNZSegmentedControl: 62a9ffd075c88719c0275cc7080d94d495a1dd91
+
+PODFILE CHECKSUM: 1402199eeb5de226929dcc237c82970391054e3c
+
+COCOAPODS: 1.5.3

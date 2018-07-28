@@ -1,0 +1,22 @@
+{
+  "name": "KNZSegmentedControl",
+  "version": "0.1.0",
+  "summary": "A short description of KNZSegmentedControl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/knzknz/KNZSegmentedControl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "knzknz": "knzali3@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/knzknz/KNZSegmentedControl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KNZSegmentedControl/Classes/**/*"
+}

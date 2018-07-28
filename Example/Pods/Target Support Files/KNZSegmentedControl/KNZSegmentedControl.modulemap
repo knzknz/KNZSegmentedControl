@@ -1,0 +1,6 @@
+framework module KNZSegmentedControl {
+  umbrella header "KNZSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

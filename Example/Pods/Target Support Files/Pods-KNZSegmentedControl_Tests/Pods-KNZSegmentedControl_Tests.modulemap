@@ -1,0 +1,6 @@
+framework module Pods_KNZSegmentedControl_Tests {
+  umbrella header "Pods-KNZSegmentedControl_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
