@@ -11,6 +11,7 @@
 - [x] Customizable border width, border color, text color & selector color
 - [x] Designable in Interface Builder
 
+<a href="https://imgflip.com/gif/2eujbm"><img src="https://i.imgflip.com/2eujbm.gif" title="made at imgflip.com"/></a>
 
 ## Requirements
 
